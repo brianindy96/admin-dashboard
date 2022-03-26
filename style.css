@@ -104,10 +104,17 @@ button:hover{
     grid-row: 1/4;
 }
 
+/* Sidebar-right */
+
 .sidebar-right{
     background-color: var(--grey);
     border-left: 1px solid black;
     grid-column: 2/3;
     grid-row: 1/4;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
 }
+
+
+
 
