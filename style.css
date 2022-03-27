@@ -83,7 +83,7 @@ body{
 }
 
 .search-input{
-    width: 30rem;
+    width: 50rem;
     padding: 7px;
     background-color: var(--grey);
     border: 0px solid black;
