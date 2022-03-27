@@ -124,7 +124,7 @@ body{
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .post-right{
@@ -153,6 +153,28 @@ button:focus{
 
 button:hover{
     transform: scale(0.99);
+}
+
+/* Profile in post */
+
+.post-left{
+    display: flex;
+    padding-left: 40px;
+}
+
+.profile-pic2{
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+.profile-text{
+    padding-top: 10px;
+}
+.post-left > .profile-text > h2{
+    font-weight: 900;
 }
 
 /* Main-Content */
