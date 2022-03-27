@@ -187,9 +187,11 @@ button:hover{
 
 /* Main-Content */
 .content-container{
+    padding-top: 10px;
     background-color: var(--grey);
     display: grid;
     grid-template-columns: 3fr 1fr;
+    padding-bottom: 15px;
 }
 
 .content-container > .content-left{
@@ -217,7 +219,7 @@ button:hover{
 .card-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 30px;
+    grid-gap: 25px;
 }
 
 /* Sidebar-right */
