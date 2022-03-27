@@ -115,6 +115,32 @@ button:hover{
     grid-template-rows: repeat(2,1fr);
 }
 
+.box-1,
+.box-2{
+    display: grid;
+    grid-template-rows: 0fr 3fr;
+}
+
+.announce-title{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.announce,
+.trending{
+    background-color: white;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 
 
 
