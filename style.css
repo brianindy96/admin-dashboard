@@ -64,7 +64,7 @@ body{
 
 
 .nav{
-    border-bottom: 1px solid black;
+    padding-top: 5px;
     height: 50px;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -95,10 +95,32 @@ body{
     outline: none;
 }
 
+/* Nav-profile */
+
+.nav-profile{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 30px;
+}
+
+.profile-pic{
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+#noti-btn,
+.profile-name{
+    padding-top: 15px;
+}
+
 
 
 /* Post */
 .post{
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding-top: 10px;
