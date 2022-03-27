@@ -76,6 +76,12 @@ body{
     padding-left: 40px;
 }
 
+.search > button{
+    background-color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
 .search-input{
     width: 30rem;
     padding: 7px;
